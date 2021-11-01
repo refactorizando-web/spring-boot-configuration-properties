@@ -21,6 +21,7 @@ Spring Boot.
 
 This is a normal Spring Boot application with multiples application main classes.
 So to run it you have to inside each package.
+
   * Immutable: spring-boot:run
   * map: spring-boot:run
   * properties: spring-boot:run
