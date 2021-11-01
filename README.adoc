@@ -1,0 +1,27 @@
+= Spring Boot Configuration Properties examples =
+
+== Introduction
+
+Example of use @ConfigurationProperties in Spring Boot to load properties from
+properties files.
+
+If you want to take a look you can dig deeper in:
+https://refactorizando.com/configurationproperties-spring-boot
+
+== Examples
+This Spring Boot application contains 4 examples about how to use configurationproperties with
+Spring Boot.
+
+  * Immutable: This is an immutable example with properties, to enable it you have to add ConstructorBinding.
+  * Map: An example using a map to collect properties.
+  * Properties: Normal example to load properties from application.yml
+  * Validator: Use javax.validator with the aim of verify properties
+
+== How does it run?
+
+This is a normal Spring Boot application with multiples application main classes.
+So to run it you have to inside each package.
+  * Immutable: spring-boot:run
+  * map: spring-boot:run
+  * properties: spring-boot:run
+  * validator: spring-boot:run

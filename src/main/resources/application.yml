@@ -1,0 +1,9 @@
+
+configuration:
+  clients:
+    product:
+      host: "serviceA"
+      port: 7000
+    shop:
+      host: "serviceB"
+      port: 8080
